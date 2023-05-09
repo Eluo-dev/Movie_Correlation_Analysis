@@ -1,7 +1,10 @@
 '''
-Pycharm not displaying all csv data so I used Jupyter Notebook instead of Pycharm
+Project task: Develop visuals to display what variables correlate most to movie gross earnings, scrape data from
+csv, show how data correlates using plots and heatmaps, sort and analyze the data and produce conclusion
 
-Project task: Develop visuals to display what variables correlate most to movie gross earnings
+# Hypothesis: Budget will be highly correlated with gross revenue, analyze the data to verify if this is true
+
+# Pycharm not displaying all csv data so I used Jupyter Notebook instead of Pycharm
 '''
 
 # import libraries
@@ -15,7 +18,7 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 from matplotlib.pyplot import figure
 
-# %matplotlib inline # this line is only required in Jupyter Notebook, not required in Pycharm
+%matplotlib inline # this line is only required in Jupyter Notebook, not required in Pycharm
 matplotlib.rcParams['figure.figsize'] = (12,8)
 
 # read the data
@@ -128,4 +131,8 @@ high_correlation = sorted_pairs[(sorted_pairs) > 0.5]
 
 print(high_correlation)
 
-# Gross has high correlation to budget, gross also has high correlation to votes
+'''
+Conclusion: After analyzing the data, I can determine that votes has high correlation to gross 
+with a correlation of 0.628713 and budget also has high correlation to gross with a correlation of 0.711270. 
+However, company was very lowly correlated to gross and had a correlation of -0.14.
+'''
