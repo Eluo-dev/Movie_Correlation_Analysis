@@ -18,7 +18,9 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 from matplotlib.pyplot import figure
 
-%matplotlib inline # this line is only required in Jupyter Notebook, not required in Pycharm
+# this line is only required in Jupyter Notebook, not required in Pycharm
+%matplotlib inline
+
 matplotlib.rcParams['figure.figsize'] = (12,8)
 
 # read the data
