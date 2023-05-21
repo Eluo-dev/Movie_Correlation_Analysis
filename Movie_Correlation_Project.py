@@ -58,6 +58,17 @@ pd.set_option('display.max_rows', None)
 
 df['company'] = df['company'].drop_duplicates().sort_values(ascending=False)
 
+# Scatter plot with company vs gross revenue
+
+df_clean = df.dropna(subset=['company', 'gross'])
+plt.scatter(x=df_clean['company'], y=df_clean['gross'])
+plt.title('Company vs Gross Earnings')
+plt.xlabel('Gross Earnings')
+plt.ylabel('Company')
+plt.show()
+
+print(df.head())
+
 # Scatter plot with budget vs gross revenue
 
 df_clean = df.dropna(subset=['budget', 'gross'])
@@ -136,5 +147,6 @@ print(high_correlation)
 '''
 Conclusion: After analyzing the data, I can determine that votes has high correlation to gross 
 with a correlation of 0.628713 and budget also has high correlation to gross with a correlation of 0.711270. 
-However, company was very lowly correlated to gross and had a correlation of -0.14.
+However, company was very lowly correlated to gross and had a correlation of -0.14. My Hypothesis was
+partially correct and partially incorrect. I was wrong about company but I was right about budget.
 '''
