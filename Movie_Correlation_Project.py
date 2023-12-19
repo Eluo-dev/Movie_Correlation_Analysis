@@ -16,7 +16,7 @@ matplotlib.rcParams['figure.figsize'] = (12,8)
 
 # read the data
 
-df = pd.read_csv(r'C:\Users\vuong_000\Downloads\movies.csv')
+df = pd.read_csv(r'C:\Users\Directory\movies.csv')
 
 # View the data
 
