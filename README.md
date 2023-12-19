@@ -1,15 +1,28 @@
-Project task: Develop data visualizations to display which variables correlate most to movie gross earnings. 
+# **MOVIE CORRELATION ANALYSIS REPORT** 
 
-Import raw data and libraries.
-Form hypothesis.
-Scrape and clean the data. 
-Visualize data correlations using plots and heatmaps. 
-Sort and analyze the data. 
-Verify or reject hypothesis. 
-Form conclusion.
+# PROJECT DESCRIPTION: 
+Analyze 2012-2016 box office movies and develop data visualizations to display which variables correlate most to movie gross earnings. 
 
-Insert your own directory when locating and reading the data
+# Analysis Overview:
++ **Which variables contribute to box office performance?**
++ **Why?**
++ **What do your findings mean?**
 
-Pycharm not displaying all csv data so I used Jupyter Notebook instead of Pycharm
+# Development Requirements		
+		
++	Use Pandas to clean and format your dataset(s). 
++	Create a Jupyter Notebook describing the data exploration and cleanup process.
++	Create a Jupyter Notebook illustrating the final data analysis. 
++	Use Matplotlib to create a total of 6–8 visualizations of your data (ideally, at least 2 per ”question” you ask of your data). 
++	Save PNG images of your visualizations to distribute and for inclusion in your presentation.
 
-Dataset of 2012-2016 box office movies was downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies
+# Technology Overview
+
+| Python & Libraries | Pandas, Matplotlib, Seaborn, NumPy |
+
+# Notes
+
++ Dataset was downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies
++ Insert your own directory when locating and reading the data
+
+# HYPOTHESIS -> ANALYSIS -> CONCLUSION
