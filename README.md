@@ -3,3 +3,5 @@ Project task: Develop visuals to display what variables correlate most to movie 
 Hypothesis: budget and company will be highly correlated with gross revenue, analyze the data to verify if this is true
 
 Pycharm not displaying all csv data so I used Jupyter Notebook instead of Pycharm
+
+Insert your own directory when locating and reading the data
