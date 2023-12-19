@@ -18,7 +18,6 @@ Analyze 2012-2016 box office movies and develop data visualizations to display w
 
 # Technology Overview
 
-| Technology   	     | Description    		          |
 | Python & Libraries | Pandas, Matplotlib, Seaborn, NumPy |
 
 # HYPOTHESIS -> ANALYSIS -> CONCLUSION
