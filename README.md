@@ -20,9 +20,9 @@ Analyze 2012-2016 box office movies and develop data visualizations to display w
 
 | Python & Libraries | Pandas, Matplotlib, Seaborn, NumPy |
 
+# HYPOTHESIS -> ANALYSIS -> CONCLUSION
+
 # Notes
 
 + Dataset was downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies
 + Insert your own directory when locating and reading the data
-
-# HYPOTHESIS -> ANALYSIS -> CONCLUSION
