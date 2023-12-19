@@ -1,4 +1,4 @@
-# import libraries
+# Hypothesis: budget and company will be highly correlated with gross revenue. Analyze the data to verify if this is true.
 
 import numpy as np
 import pandas as pd
