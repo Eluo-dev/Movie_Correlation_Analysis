@@ -1,7 +1,7 @@
 # **MOVIE CORRELATION ANALYSIS REPORT** 
 
 # PROJECT DESCRIPTION: 
-Analyze 2012-2016 box office movies and develop data visualizations to display which variables correlate most to movie gross earnings. 
+Analyze 6820 box office movies spanning from 1986-2016 and develop data visualizations to display which variables correlate most to movie gross earnings. 
 
 # Analysis Overview:
 + **Which variables contribute to box office performance?**
