@@ -1,4 +1,7 @@
-# Hypothesis: budget and company will be highly correlated with gross revenue. Analyze the data to verify if this is true.
+'''
+Hypothesis: The variables budget, votes, and company will be highly correlated with gross revenue. 
+Analyze the data to verify if this is true.
+'''
 
 import numpy as np
 import pandas as pd
@@ -53,8 +56,8 @@ df['company'] = df['company'].drop_duplicates().sort_values(ascending=False)
 
 df_clean = df.dropna(subset=['company', 'gross'])
 plt.scatter(x=df_clean['company'], y=df_clean['gross'])
-plt.title('Company vs Gross Earnings')
-plt.xlabel('Gross Earnings')
+plt.title('Company vs Gross Revenue')
+plt.xlabel('Gross Revenue')
 plt.ylabel('Company')
 plt.show()
 
@@ -64,14 +67,14 @@ print(df.head())
 
 df_clean = df.dropna(subset=['budget', 'gross'])
 plt.scatter(x=df_clean['budget'], y=df_clean['gross'])
-plt.title('Budget vs Gross Earnings')
-plt.xlabel('Gross Earnings')
+plt.title('Budget vs Gross Revenue')
+plt.xlabel('Gross Revenue')
 plt.ylabel('Budget for Film')
 plt.show()
 
 print(df.head())
 
-# Plot budget vs gross earnings using seaborn
+# Plot budget vs gross revenue using seaborn
 
 sns.regplot(x='budget', y='gross', data=df, scatter_kws={"color": "red"}, line_kws={"color": "blue"})
 plt.show()
@@ -137,9 +140,10 @@ high_correlation = sorted_pairs[(sorted_pairs) > 0.5]
 print(high_correlation)
 
 '''
-Conclusion: After analyzing the data, I can determine that votes has high correlation to gross with a correlation of 0.628713 and budget also has high correlation to gross with a correlation of 0.711270. 
-However, company was very lowly correlated to gross and had a correlation of -0.14. My Hypothesis was partially correct and partially incorrect. I was wrong about company but I was right about budget and votes.
+Analysis: Results show that votes have a high correlation to gross with a positive correlation of 0.628713 and budget also has a high correlation to gross with a positive correlation of 0.711270. 
+However, company was very lowly correlated to gross and had a negative correlation of -0.14. 
+My Hypothesis was partially correct and partially incorrect. I was wrong about company but I was right about budget and votes.
 
-My findings signal to me that when a company has a large budget and when votes increase, the more likely that their gross earnings will also increase.
-This means that movie budgets and audience voting are important variables that are linked to earnings and influence a film's performance in the box office.
+Conclusion: My findings signal to me that when a company has a large budget and when votes increase, it is likely that their gross revenue will also increase.
+This means that movie budgets and audience voting are important variables that are linked to gross revenue and influence a film's performance at the box office.
 '''
