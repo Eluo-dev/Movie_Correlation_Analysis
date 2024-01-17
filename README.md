@@ -6,13 +6,14 @@ I explored key variables influencing box office earnings and used data visualiza
 
 Analyze 6820 box office movies spanning from 1986-2016 and develop data visualizations to display which variables correlate most to movie gross earnings.
 
-## Analysis Overview:
-
+### Hypothesis
 - Which variables contribute to box office performance?
-- Why?
-- What do your findings mean?
 
-## Hypothesis -> Analysis -> Conclusion
+### Analysis
+- Why?
+
+### Conclusion
+- What do your findings mean?
 
 ## Development Requirements
 
