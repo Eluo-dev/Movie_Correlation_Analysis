@@ -86,6 +86,7 @@ print(df_numeric.corr(method='pearson'))
 
 '''
 # pearson, kendall, and spearman are 3 methods of correlating available
+
 print(df_numeric.corr(method='pearson'))
 print(df_numeric.corr(method='kendall'))
 print(df_numeric.corr(method='spearman'))
