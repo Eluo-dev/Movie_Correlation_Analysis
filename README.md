@@ -10,7 +10,7 @@ Analyze 6820 box office movies spanning from 1986-2016 and develop data visualiz
 - Which variables contribute to box office performance?
 
 ### Analysis
-- What were your findings?
+- What were your findings after analyzing the data?
 
 ### Conclusion
 - What do your findings mean?
