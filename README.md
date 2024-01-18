@@ -10,7 +10,7 @@ Analyze 6820 box office movies spanning from 1986-2016 and develop data visualiz
 - Which variables contribute to box office performance?
 
 ### Analysis
-- Why?
+- What were your findings?
 
 ### Conclusion
 - What do your findings mean?
@@ -20,7 +20,7 @@ Analyze 6820 box office movies spanning from 1986-2016 and develop data visualiz
 - Use Pandas to clean and format your dataset(s).
 - Create a Jupyter Notebook describing the data exploration and cleanup process.
 - Create a Jupyter Notebook illustrating the final data analysis.
-- Use Matplotlib and Seaborn to create a total of 6–8 visualizations of your data (ideally, at least 2 per ”question” you ask of your data).
+- Use Matplotlib and Seaborn to create a total of 3-4 visualizations of your data (ideally, at least 1 per ”question” you ask of your data).
 - Save PNG images of your visualizations to distribute and for inclusion in your presentation.
 
 ## Data Cleanup & Analysis
