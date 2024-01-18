@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 from matplotlib.pyplot import figure
 
-# this line is only required in Jupyter Notebook, may not be required in other IDEs
+# line 16 is only required in Jupyter Notebook, may not be required in other IDEs
 %matplotlib inline
 
 matplotlib.rcParams['figure.figsize'] = (12,8)
