@@ -4,7 +4,7 @@ I explored key variables influencing box office earnings and used data visualiza
 
 ## PROJECT DESCRIPTION:
 
-Analyze 6820 box office movies spanning from 1986-2016 and develop data visualizations to display which variables correlate most to movie gross earnings.
+Analyze 6820 box office movies spanning from 1986-2016 and develop data visualizations to display which variables correlate most to movie gross earnings. Download dataset from https://www.kaggle.com/datasets/danielgrijalvas/movies (Account required to login and download) 
 
 ### Hypothesis
 - Which variables contribute to box office performance?
@@ -50,5 +50,4 @@ My findings signal to me that when a company has a large budget and when votes i
 This means that movie budgets and audience voting are important variables that are linked to gross revenue and influence a film's performance at the box office.
 
 ## Notes
-- Dataset was downloaded from https://www.kaggle.com/datasets/danielgrijalvas/movies
 - Insert your own directory when locating and reading the data
