@@ -50,7 +50,7 @@ My findings signal to me that when a company has a large budget and when their f
 This means that movie budgets and audience voting are important variables that are linked to gross revenue and influence a film's performance at the box office.
 
 ## Notes
-It's worth noting that this analysis seems to be missing some context. The dataset also does not reflect positive or negative sentiment analysis of votes. My intuition tells me that"
+It's worth noting that this analysis seems to be missing some context. The dataset also does not reflect positive or negative sentiment analysis of votes. My intuition tells me that:
 - An increase in quantity of votes does not necessarily mean that movie will perform well.
 - If there is an increase in positive sentiment votes then that film is more likely to have higher gross revenue
 - If there is an increase in negative sentiment votes then that film is likely to have lower gross revenue.
