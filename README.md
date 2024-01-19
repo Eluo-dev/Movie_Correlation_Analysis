@@ -46,8 +46,12 @@ However, company was very lowly correlated to gross and had a correlation of -0.
 My Hypothesis was partially correct and partially incorrect. I was wrong about company but I was right about budget and votes.
 
 ## Conclusion
-My findings signal to me that when a company has a large budget and when votes increase, it is likely that their gross revenue will also increase.
+My findings signal to me that when a company has a large budget and when their film has a lot of audience voting, it is likely that their gross revenue will also increase.
 This means that movie budgets and audience voting are important variables that are linked to gross revenue and influence a film's performance at the box office.
 
 ## Notes
-- Insert your own directory when locating and reading the data
+It's worth noting that this analysis seems to be missing some context. The dataset also does not reflect positive or negative sentiment analysis of votes. My intuition tells me that"
+- An increase in quantity of votes does not necessarily mean that movie will perform well.
+- If there is an increase in positive sentiment votes then that film is more likely to have higher gross revenue
+- If there is an increase in negative sentiment votes then that film is likely to have lower gross revenue.
+- However, it is generally better that a film has more votes than no votes at all, because that means the film is at least receiving attention.
