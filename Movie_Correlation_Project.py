@@ -17,9 +17,9 @@ from matplotlib.pyplot import figure
 
 matplotlib.rcParams['figure.figsize'] = (12,8)
 
-# read the data
+# read the data, insert your personal directory here
 
-df = pd.read_csv(r'C:\Users\Directory\movies.csv')
+df = pd.read_csv(r'C:\Directory\movies.csv')
 
 # View the data
 
